@@ -1,0 +1,22 @@
+.sidebarTab {
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	border-width: 0;
+}
+.sidebarTab-white {
+	background-color: white;
+}
+.sidebarTab-lightgreen {
+	background-color: lightgreen;
+}
+.sidebarTab-lightblue {
+	background-color: lightblue;
+}
+.sidebarTab:hover {
+	filter: brightness(0.9);
+}
+.sidebarTab:disabled {
+	filter: none;
+	cursor: not-allowed;
+}
