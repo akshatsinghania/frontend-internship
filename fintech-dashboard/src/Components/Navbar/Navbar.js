@@ -7,7 +7,6 @@ const Navbar = () => {
 	return (
 		<div className='navbar'>
 			<WelcomeBack name={'Julie Bell'} profilePicture={ProfilePicture} />
-			<h1>SUp</h1>
 		</div>
 	);
 };

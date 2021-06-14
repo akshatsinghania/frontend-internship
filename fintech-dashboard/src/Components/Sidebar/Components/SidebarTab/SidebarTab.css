@@ -1,22 +1,29 @@
 .sidebarTab {
+	width: 100%;
+}
+.sidebarTab-active {
+	border-left: 4px solid var(--sidebarTab-color);
+}
+.sidebarTab__button {
+	width: 70%;
+	padding: 10px;
+	height: 5em;
+	width: 5em;
 	border-radius: 50%;
-	width: 80px;
-	height: 80px;
 	border-width: 0;
+	background-color: var(--sidebarTab-color);
 }
-.sidebarTab-white {
-	background-color: white;
+
+.sidebarTab__active {
+	border-left: 6px solid white;
+	height: 300px;
+	position: absolute;
+	left: 50%;
 }
-.sidebarTab-lightgreen {
-	background-color: lightgreen;
-}
-.sidebarTab-lightblue {
-	background-color: lightblue;
-}
-.sidebarTab:hover {
+.sidebarTab__button:hover {
 	filter: brightness(0.9);
 }
-.sidebarTab:disabled {
+.sidebarTab__button:disabled {
 	filter: none;
 	cursor: not-allowed;
 }

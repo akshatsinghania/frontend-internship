@@ -9,13 +9,13 @@
 	background-color: black;
 }
 .sidebar__iconarrowUp {
-	font-size: 500% !important;
+	font-size: 300% !important;
 }
 .sidebar__iconBox {
 	background-color: black;
 }
-.sidebar .sidebarTab {
-	margin: 10% 0;
+.sidebar .sidebarTab__button {
+	margin: 10% 15%;
 }
 @media only screen and (max-width: 600px) {
 	.sidebar {
