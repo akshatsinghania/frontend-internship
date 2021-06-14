@@ -1,5 +1,4 @@
 import React from 'react';
-import './SidebarTab.css';
 
 const Tab = ({
 	children,

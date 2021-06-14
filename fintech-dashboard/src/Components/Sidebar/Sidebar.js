@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Sidebar.css';
 import SidebarTab from './Components/SidebarTab/SidebarTab';
 import CheckBoxOutlineBlankIcon from '@material-ui/icons/CheckBoxOutlineBlank';
 import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';

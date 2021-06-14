@@ -1,5 +1,4 @@
 import React from 'react';
-import './WelcomeBack.css';
 
 const WelcomeBack = ({ profilePicture, name }) => {
 	return (

@@ -1,3 +1,4 @@
+@import './SidebarTab.css';
 .sidebar {
 	display: flex;
 	flex-direction: column;

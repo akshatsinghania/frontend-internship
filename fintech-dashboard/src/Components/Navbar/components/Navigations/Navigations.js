@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Navigations.css';
 import Navigation from './components/Navigation/Navigation';
 import RocketIcon from '../../../../Assets/Icons/Rocket';
 import PermIdentityIcon from '@material-ui/icons/PermIdentity';
