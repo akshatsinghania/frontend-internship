@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+.welcomeBack {
+	font-family: 'Oswald', sans-serif;
+}
+.welcomeBack__text-light {
+	font-weight: 100;
+}
+.welcomeBack__text-heavy {
+	font-weight: 800;
+}
