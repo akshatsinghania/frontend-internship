@@ -1,0 +1,7 @@
+.navbarNavigations {
+	display: flex;
+	flex-direction: column;
+}
+.navbarNavigations .navbarNavigation {
+	margin: 5% 25%;
+}

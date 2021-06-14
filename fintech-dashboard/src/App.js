@@ -1,10 +1,12 @@
 import React from 'react';
-import Home from './Pages/Home/Home';
+import Sidebar from './Components/Sidebar/Sidebar';
+import Navbar from './Components/Navbar/Navbar';
 
 const App = () => {
 	return (
-		<div>
-			<Home />
+		<div className='app'>
+			<Sidebar />
+			<Navbar />
 		</div>
 	);
 };

@@ -1,0 +1,15 @@
+.navbarNavigation {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	background-color: inherit;
+	border: none;
+}
+.navbarNavigation-active {
+	margin-left: -8%;
+	margin-right: 2%;
+}
+.navbarNavigation__text {
+	font-weight: 500;
+	margin: 0 10%;
+}
