@@ -5,7 +5,7 @@ import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
 import AddIcon from '@material-ui/icons/Add';
 
 const Sidebar = () => {
-	const [activeTab, setActiveTab] = useState(false);
+	const [activeTab, setActiveTab] = useState(1);
 	const tabs = [
 		{
 			component: <ArrowDropUpIcon className='sidebar__iconarrowUp' />,
