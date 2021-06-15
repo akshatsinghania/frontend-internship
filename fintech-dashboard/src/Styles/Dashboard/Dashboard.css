@@ -1,0 +1,43 @@
+@import './ProgressBar/ProgressBar.css';
+@import './LineChart/LineChart.css';
+.dashboard {
+	display: flex;
+	flex-direction: column;
+	margin: 3%;
+}
+.dashboard__row {
+	display: flex;
+	margin-top: 10%;
+}
+.dashboard__column {
+	margin: auto 15%;
+	white-space: nowrap;
+}
+.dashboard__columnTitle-light {
+	font-weight: 400;
+	font-size: medium;
+}
+.dashboard__columnContent {
+	display: flex;
+}
+.dashboard__columnContent div {
+	margin-right: 15%;
+	margin-top: 5%;
+}
+.dashboard__columnContent__text-light {
+	font-weight: 500;
+	color: gray;
+}
+.dashboard__columnContent__text-heavy {
+	font-weight: 900;
+}
+.dashboard__icon {
+	font-size: 200% !important;
+	margin: auto 10%;
+}
+.dasboard__text-marginTop {
+	margin-top: 20%;
+}
+.dasboard__text-marginLeft {
+	margin-left: 5%;
+}

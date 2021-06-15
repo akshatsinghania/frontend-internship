@@ -1,5 +1,6 @@
 @import './Navbar/Navbar.css';
 @import './Sidebar/Sidebar.css';
+@import './Dashboard/Dashboard.css';
 .app {
 	display: flex;
 }
