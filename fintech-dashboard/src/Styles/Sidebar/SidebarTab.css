@@ -13,17 +13,16 @@
 	border-width: 0;
 	background-color: var(--sidebarTab-color);
 }
-
-.sidebarTab__active {
-	border-left: 6px solid white;
-	height: 300px;
-	position: absolute;
-	left: 50%;
-}
 .sidebarTab__button:hover {
 	filter: brightness(0.9);
 }
 .sidebarTab__button:disabled {
 	filter: none;
 	cursor: not-allowed;
+}
+@media only screen and (max-width: 600px) {
+	.sidebarTab-active {
+		border-left: none;
+		border-top: 2px solid var(--sidebarTab-color);
+	}
 }
