@@ -1,0 +1,12 @@
+.dasboard__text-marginTop {
+	margin-top: 20%;
+}
+.dasboard__text-marginLeft {
+	margin-left: 5%;
+}
+@media only screen and (max-width: 600px) {
+	.dasboard__text-marginTop {
+		margin-top: 5%;
+		margin-bottom: 10%;
+	}
+}

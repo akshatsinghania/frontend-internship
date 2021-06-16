@@ -15,19 +15,19 @@ const InvoicesAndRevenue = () => {
 			<div className='dashboard__column'>
 				<h2 className='dashboard__columnTitle-light'>Invoices</h2>
 				<div className='dashboard__columnContent'>
-					<div>
+					<div className='dashboard__column-responsive'>
 						<h1 className='dashboard__columnContent__text-heavy'>$12,095</h1>
 						<p className='dashboard__columnContent__text-light dasboard__text-marginTop'>
 							Over due
 						</p>
 					</div>
-					<div>
+					<div className='dashboard__column-responsive'>
 						<h1 className='dashboard__columnContent__text-heavy'>$33,363</h1>
 						<p className='dashboard__columnContent__text-light dasboard__text-marginTop'>
 							Total Outstanding
 						</p>
 					</div>
-					<div>
+					<div className='dashboard__column-responsive'>
 						<h1 className='dashboard__columnContent__text-heavy'>$4500</h1>
 						<p className='dashboard__columnContent__text-light dasboard__text-marginTop'>
 							In Draft
@@ -36,7 +36,10 @@ const InvoicesAndRevenue = () => {
 				</div>
 			</div>
 			<div className='dashboard__column'>
-				<h2 className='dashboard__columnTitle-light'>Outstanding Revenue</h2>
+				<h2 className='dashboard__columnTitle-light'>
+					Outstanding Revenue
+					<SearchIcon className='dashboard__icon' />
+				</h2>
 				<div className='dashboard__columnContent'>
 					<div>
 						<ProgressBar progress={30} />
@@ -49,9 +52,6 @@ const InvoicesAndRevenue = () => {
 						</p>
 					</div>
 				</div>
-			</div>
-			<div className='dashboard__column'>
-				<SearchIcon className='dashboard__icon' />
 			</div>
 		</div>
 	);

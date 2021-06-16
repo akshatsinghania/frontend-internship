@@ -1,0 +1,18 @@
+.dashboard__icon {
+	font-size: 200% !important;
+	margin: auto 10%;
+}
+.dashboard__icon-right {
+	margin-left: 100%;
+}
+.dashboard__icon-small {
+	align-items: flex-end;
+	font-size: 100% !important;
+}
+.dashboard__icon-marginLeft {
+	margin: auto 10%;
+}
+.dashboard__icon-large {
+	margin-top: 40%;
+	font-size: 300% !important;
+}

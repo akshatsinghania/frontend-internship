@@ -1,5 +1,10 @@
 @import './ProgressBar/ProgressBar.css';
 @import './LineChart/LineChart.css';
+@import './Column.css';
+@import './Icon.css';
+@import './Text.css';
+@import './Card.css';
+
 .dashboard {
 	display: flex;
 	flex-direction: column;
@@ -9,75 +14,9 @@
 	display: flex;
 	margin-top: 10%;
 }
-.dashboard__column {
-	margin: auto 15%;
-	white-space: nowrap;
-	height: 100%;
-}
-.dashboard__columnTitle-light {
-	font-weight: 400;
-	font-size: medium;
-}
-.dashboard__columnContent {
-	display: flex;
-}
-.dashboard__columnContent-column {
-	flex-direction: column;
-}
-.dashboard__columnContent div {
-	margin-right: 15%;
-	margin-top: 5%;
-}
-.dashboard__columnContent__text-light {
-	font-weight: 500;
-	color: gray;
-}
-.dashboard__columnContent__text-heavy {
-	font-weight: 400;
-}
-.dashboard__icon {
-	font-size: 200% !important;
-	margin: auto 10%;
-}
-.dashboard__icon-right {
-	margin-left: 100%;
-}
-.dashboard__icon-small {
-	align-items: flex-end;
-	font-size: 100% !important;
-}
 
-.dasboard__text-marginTop {
-	margin-top: 20%;
-}
-.dasboard__text-marginLeft {
-	margin-left: 5%;
-}
-.dashboard__card {
-	background-color: rgba(128, 0, 128, 0.1);
-	padding: 10%;
-	border-radius: 10px;
-}
-.dashboard__columnContentIcon-small {
-	margin-left: 22%;
-	padding-right: 1em;
-}
-.dashboard__columnContentIcon-small {
-	font-size: 100%;
-	color: gray;
-}
-.dashboard__card-green {
-	background-color: rgba(0, 128, 0, 0.1);
-}
-.dashboard__card-blue {
-	background-color: rgba(0, 183, 255, 0.1);
-}
-.dashboard__icon-large {
-	margin-top: 40%;
-	font-size: 300% !important;
-}
-.dashboard__columnContent-row {
-	display: flex;
-	flex-direction: row;
-	margin-right: 30% !important;
+@media only screen and (max-width: 600px) {
+	.dashboard__row {
+		flex-direction: column;
+	}
 }

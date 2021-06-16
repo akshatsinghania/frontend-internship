@@ -13,3 +13,8 @@
 	font-weight: 500;
 	margin: 0 10%;
 }
+@media only screen and (max-width: 600px) {
+	.navbarNavigation {
+		width: auto;
+	}
+}

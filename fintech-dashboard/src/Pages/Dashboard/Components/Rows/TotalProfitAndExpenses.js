@@ -12,11 +12,13 @@ const TotalProfitAndExpenses = () => {
 		<div className='dashboard__row'>
 			<div className='dashboard__column'>
 				<div className='dashboard__columnContent'>
-					<h1 className='dashboard__columnTitle-heavy'>Total Profit</h1>
-					<p className='dashboard__columnContent__text-light dasboard__text-marginLeft'>
-						September 2020
-					</p>
-					<TuneIcon className='dashboard__icon' />
+					<h1 className='dashboard__columnTitle-heavy'>
+						Total Profit
+						<p className='dashboard__columnTitle__text-light dasboard__text-marginLeft'>
+							September 2020
+						</p>
+						<TuneIcon className='dashboard__icon-small dashboard__icon-marginLeft' />
+					</h1>
 				</div>
 				<div className='dashboard_columnContent'>
 					<LineChart />

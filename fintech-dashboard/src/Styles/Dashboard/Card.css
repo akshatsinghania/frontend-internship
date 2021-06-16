@@ -1,0 +1,12 @@
+.dashboard__card {
+	background-color: rgba(128, 0, 128, 0.1);
+	padding: 10%;
+	border-radius: 10px;
+}
+
+.dashboard__card-green {
+	background-color: rgba(0, 128, 0, 0.1);
+}
+.dashboard__card-blue {
+	background-color: rgba(0, 183, 255, 0.1);
+}

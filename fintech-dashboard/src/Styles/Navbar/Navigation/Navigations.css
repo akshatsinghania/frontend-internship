@@ -6,3 +6,21 @@
 .navbarNavigations .navbarNavigation {
 	margin: 5% 25%;
 }
+.navbarNavigations__menu {
+	display: none !important;
+}
+@media only screen and (max-width: 600px) {
+	.navbarNavigations {
+		position: fixed;
+		width: 100%;
+		background-color: rgb(238, 238, 238);
+		height: 100%;
+		padding-top: 100%;
+	}
+
+	.navbarNavigations__menu {
+		display: block !important;
+		font-size: 200% !important;
+		z-index: 100;
+	}
+}
